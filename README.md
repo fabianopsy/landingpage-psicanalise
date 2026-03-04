@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fabiano Lucas | Psicanalista</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,1)),
+                url('https://i.ibb.co/C5GS24KX/IMG-20251120-172648-135.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #E50914;
+    color: #fff;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b20710;
+    transform: scale(1.05);
+}
+
+section {
+    padding: 80px 20px;
+}
+
+.dark-section {
+    background-color: #141414;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.benefit-box {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    width: 280px;
+    transition: 0.3s ease;
+}
+
+.benefit-box:hover {
+    transform: translateY(-8px);
+    background-color: #262626;
+}
+
+.benefit-box h3 {
+    color: #E50914;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 40px 20px;
+    color: #777;
+    border-top: 1px solid #222;
+}
+
+@media(max-width: 768px) {
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Você não precisa continuar vivendo no modo sobrevivência.</h1>
+    <p>
+        Ansiedade constante. Relacionamentos que se repetem. 
+        Uma sensação de que algo sempre falta.
+        A psicanálise é um mergulho profundo — e transformador.
+    </p>
+    <a href="https://wa.me/5514991469879" class="cta-button" target="_blank">
+        Agendar Sessão no WhatsApp
+    </a>
+</header>
+
+<section class="dark-section">
+<div class="container">
+<h2>Sobre o Atendimento</h2>
+
+<div style="text-align:center;">
+    <img src="https://i.ibb.co/C5GS24KX/IMG-20251120-172648-135.webp" alt="Fabiano Lucas Psicanalista">
+</div>
+
+<p style="max-width:800px;margin:auto;text-align:center;color:#ccc;line-height:1.7;">
+Meu nome é <strong>Fabiano Lucas</strong>.  
+Ofereço um espaço de escuta profunda, sigilosa e estruturada para mulheres que desejam compreender suas emoções na raiz.
+
+Aqui não tratamos apenas sintomas.  
+Investigamos a origem.
+</p>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Demandas Frequentes</h2>
+
+<div class="benefits">
+
+<div class="benefit-box">
+<h3>Ansiedade</h3>
+<p>Compreensão dos conflitos inconscientes que mantêm o ciclo da tensão emocional.</p>
+</div>
+
+<div class="benefit-box">
+<h3>Insegurança</h3>
+<p>Reconstrução da autoestima e fortalecimento da identidade emocional.</p>
+</div>
+
+<div class="benefit-box">
+<h3>Relacionamentos</h3>
+<p>Identificação de padrões afetivos repetitivos que geram sofrimento.</p>
+</div>
+
+</div>
+
+<div style="text-align:center;">
+<a href="https://wa.me/5514991469879" class="cta-button" target="_blank">
+Quero Iniciar Meu Processo
+</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Fabiano Lucas | Atendimento Psicanalítico Online</p>
+<p>WhatsApp: (14) 99146-9879</p>
+</footer>
+
+</body>
+</html>
